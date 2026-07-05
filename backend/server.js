@@ -76,7 +76,7 @@ io.on('connection', (socket) => {
 require('./jobs/cron')(io);
 
 // 4. IMPORTANT: We now start the 'server' object, NOT the 'app' object!
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
