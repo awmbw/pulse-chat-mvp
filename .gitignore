@@ -4,3 +4,10 @@ dist/
 .DS_Store
 *.log
 coverage/
+
+# Internal Interview & Preparation Docs
+ANTIGRAVITY_CONTEXT.md
+INTERVIEW_CHEAT_SHEET.md
+development_hurdles.md
+interview_prep_qa.md
+COMPREHENSIVE_INTERVIEW_GUIDE.md
